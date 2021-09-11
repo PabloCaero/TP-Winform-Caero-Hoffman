@@ -1,0 +1,33 @@
+Menu Principal
+---------------------------------
+-Listado de artículos.
+-Búsqueda de artículos por distintos criterios.
+-Agregar artículos.
+-Modificar artículos.
+-Eliminar artículos.
+-Ver detalle de un artículo. 
+---------------------------------
+-Salir
+
+Clase Articulo
+---------------------------------
+Código de artículo.
+Nombre.
+Descripción.
+(MARCA) Marca (seleccionable de una lista desplegable).
+(CATEGORIA) Categoría (seleccionable de una lista desplegable.
+Imagen.
+Precio.
+Estado
+
+Clase Marca
+----------------------------------
+Marca
+Descripcion
+
+Clase Categoria
+----------------------------------
+Categoria
+Descripcion
+
+NO HAY HERENCIA ENTRE CLASES,
