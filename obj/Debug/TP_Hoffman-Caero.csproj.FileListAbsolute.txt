@@ -1,0 +1,10 @@
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\bin\Debug\TP_Hoffman-Caero.exe.config
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\bin\Debug\TP_Hoffman-Caero.exe
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\bin\Debug\TP_Hoffman-Caero.pdb
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman-Caero.csproj.AssemblyReference.cache
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman_Caero.Properties.Resources.resources
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman-Caero.csproj.GenerateResource.cache
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman-Caero.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman-Caero.exe
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman-Caero.pdb
+C:\Users\Pablo Ezequiel Caero\Desktop\TP_Hoffman-Caero\obj\Debug\TP_Hoffman_Caero.frmAplicacion.resources
