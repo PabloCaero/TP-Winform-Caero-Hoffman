@@ -24,6 +24,9 @@ namespace TP_Hoffman_Caero
 
             CategoriaNegocio negocio2 = new CategoriaNegocio();
             dgvCategorias.DataSource = negocio2.listar();
+
+            ArticuloNegocio negocio3 = new ArticuloNegocio();
+            dgvArticulos.DataSource = negocio3.listar();
         }
     }
 }

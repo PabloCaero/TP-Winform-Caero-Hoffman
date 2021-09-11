@@ -31,8 +31,10 @@ namespace TP_Hoffman_Caero
         {
             this.dgvMarcas = new System.Windows.Forms.DataGridView();
             this.dgvCategorias = new System.Windows.Forms.DataGridView();
+            this.dgvArticulos = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvMarcas
@@ -51,11 +53,20 @@ namespace TP_Hoffman_Caero
             this.dgvCategorias.Size = new System.Drawing.Size(271, 166);
             this.dgvCategorias.TabIndex = 1;
             // 
+            // dgvArticulos
+            // 
+            this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvArticulos.Location = new System.Drawing.Point(201, 217);
+            this.dgvArticulos.Name = "dgvArticulos";
+            this.dgvArticulos.Size = new System.Drawing.Size(290, 150);
+            this.dgvArticulos.TabIndex = 2;
+            // 
             // frmAplicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.dgvCategorias);
             this.Controls.Add(this.dgvMarcas);
             this.Name = "frmAplicacion";
@@ -63,6 +74,7 @@ namespace TP_Hoffman_Caero
             this.Load += new System.EventHandler(this.frmAplicacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -71,6 +83,7 @@ namespace TP_Hoffman_Caero
 
         private System.Windows.Forms.DataGridView dgvMarcas;
         private System.Windows.Forms.DataGridView dgvCategorias;
+        private System.Windows.Forms.DataGridView dgvArticulos;
     }
 }
 
