@@ -12,8 +12,8 @@ namespace TP_Caero_Hoffman
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        //public int IDMarca { get; set; } //TIENE QUE SER ASOCIACION
-       // public int IDCategoria { get; set; } //TIENE QUE SER ASOCIACION
+        public Marca IDMarca { get; set; } //TIENE QUE SER ASOCIACION
+        public Categoria IDCategoria { get; set; } //TIENE QUE SER ASOCIACION
         public string ImagenURL { get; set; }
         public float Precio { get; set; }
     }

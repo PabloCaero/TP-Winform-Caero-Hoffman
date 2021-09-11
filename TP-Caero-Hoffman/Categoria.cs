@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace TP_Caero_Hoffman
 {
     class Categoria
-    {
+    { 
+        public int IDCategoria { get; set; }
+        public string Descripcion { get; set; }
     }
 }

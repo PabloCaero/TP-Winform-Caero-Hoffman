@@ -8,5 +8,8 @@ namespace TP_Caero_Hoffman
 {
     class Marca
     {
+        public int IDMarca { get; set; }
+        public string Descripcion { get; set; }
+
     }
 }
