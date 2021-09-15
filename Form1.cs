@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Negocio;
 using Dominio;
 
+
 namespace TP_Hoffman_Caero
 {
     public partial class frmAplicacion : Form
@@ -39,9 +40,6 @@ namespace TP_Hoffman_Caero
 
 
         }
-
-       
-
 
         private void cargarImagenArticulo(string imagen)
         {

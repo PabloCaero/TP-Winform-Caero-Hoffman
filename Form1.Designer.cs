@@ -42,25 +42,25 @@ namespace TP_Hoffman_Caero
             // dgvMarcas
             // 
             this.dgvMarcas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMarcas.Location = new System.Drawing.Point(37, 30);
+            this.dgvMarcas.Location = new System.Drawing.Point(12, 12);
             this.dgvMarcas.Name = "dgvMarcas";
-            this.dgvMarcas.Size = new System.Drawing.Size(458, 166);
+            this.dgvMarcas.Size = new System.Drawing.Size(483, 184);
             this.dgvMarcas.TabIndex = 0;
             // 
             // dgvCategorias
             // 
             this.dgvCategorias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategorias.Location = new System.Drawing.Point(522, 30);
+            this.dgvCategorias.Location = new System.Drawing.Point(522, 12);
             this.dgvCategorias.Name = "dgvCategorias";
-            this.dgvCategorias.Size = new System.Drawing.Size(468, 166);
+            this.dgvCategorias.Size = new System.Drawing.Size(454, 184);
             this.dgvCategorias.TabIndex = 1;
             // 
             // dgvArticulos
             // 
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArticulos.Location = new System.Drawing.Point(37, 215);
+            this.dgvArticulos.Location = new System.Drawing.Point(12, 215);
             this.dgvArticulos.Name = "dgvArticulos";
-            this.dgvArticulos.Size = new System.Drawing.Size(458, 168);
+            this.dgvArticulos.Size = new System.Drawing.Size(483, 181);
             this.dgvArticulos.TabIndex = 2;
             this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
             // 
@@ -68,7 +68,7 @@ namespace TP_Hoffman_Caero
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(522, 215);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(468, 168);
+            this.pbxArticulo.Size = new System.Drawing.Size(454, 181);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 3;
             this.pbxArticulo.TabStop = false;
