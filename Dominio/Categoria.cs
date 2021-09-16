@@ -11,7 +11,6 @@ namespace Dominio
         public int IDCategoria { get; set; }
         public string Descripcion { get; set; }
 
-        //PARA MOSTRAR ATRIBUTO EN LA TABLE EN VEZ DE MOSTRAR TODO EL OBJETO
         public override string ToString()
         {
             return Descripcion;

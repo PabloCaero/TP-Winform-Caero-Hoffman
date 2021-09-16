@@ -8,34 +8,37 @@ using Dominio;
 
 namespace Negocio
 {
-   public class ArticuloNegocio
+    public class ArticuloNegocio
     {
-        public List<Articulo> listar()
+     public List<Articulo>listar()
         {
             List<Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setearConsulta("Select A.Id, A.Codigo, A.Nombre, A.Descripcion, A.IdMarca, A.IdCategoria, A.ImagenUrl, C.Descripcion as Categoria  From ARTICULOS A, CATEGORIAS C Where A.IDCategoria = C.ID");
+                datos.setearConsulta("select A.Codigo,A.nombre,A.descripcion,A.imagenurl,A.Precio, C.descripcion Categoria, M.descripcion Marca  from ARTICULOS A , CATEGORIAS C, MARCAS M  WHERE C.Id= A.IdCategoria and M.id = A.idMarca");
                 datos.ejecturaLectura();
+
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
-                    aux.IDArticulo = datos.Lector.GetInt32(0);
-                    aux.Codigo = datos.Lector.GetString(1);
-                    aux.Nombre = datos.Lector.GetString(2);
-                    aux.Descripcion = datos.Lector.GetString(3);
-                    aux.IDMarca = datos.Lector.GetInt32(4);
-                    aux.IDCategoria = datos.Lector.GetInt32(5);
-                    aux.ImagenURL = datos.Lector.GetString(6);
-                    //aux.Precio = datos.Lector.GetDouble(7);
+                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.ImagenURL = (string)datos.Lector["ImagenURL"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
 
                     //IMPORTANTE PARA COMPOSICION y PARA TRAER COSAS DE OTRAS TABLAS REGISTROS COMPUESTOS
                     aux.Categoria = new Categoria();
                     aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
 
+                    aux.Marca = new Marca();
+                    aux.Marca.Descripcion = (string)datos.Lector["Marca"];
+
+
                     lista.Add(aux);
+                        
                 }
 
                 return lista;
@@ -48,7 +51,6 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
-        }
-
+        } 
     }
 }
