@@ -1,6 +1,0 @@
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\bin\Debug\Dominio.dll
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\bin\Debug\Dominio.pdb
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\obj\Debug\Dominio.dll
-C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Dominio\obj\Debug\Dominio.pdb
