@@ -10,7 +10,9 @@ namespace Negocio
 {
     public class ArticuloNegocio
     {
-     public List<Articulo>listar()
+        private const string V = "')";
+
+        public List<Articulo>listar()
         {
             List<Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
@@ -51,6 +53,27 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
-        } 
+        }
+        public void agregar(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("Insert into ARTICULOS (Codigo,Nombre, Descripcion , ImagenURL) values (" + nuevo.Codigo + ", '" + nuevo.Nombre + "','" + nuevo.Descripcion + "' , '" + nuevo.ImagenURL + "' )");
+                datos.ejecutarAccion();
+
+            }
+            catch (Exception ex )
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
+
 }

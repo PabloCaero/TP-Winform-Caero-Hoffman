@@ -14,3 +14,36 @@ C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Winform-app\bin\Debug\Dominio.pdb
 C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Winform-app\obj\Debug\Winform-app.csproj.CopyComplete
 C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Winform-app\bin\Debug\Negocio.dll
 C:\Users\Usuario\source\repos\Tp_Hoffman-Caero\Winform-app\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Winform-app.exe.config
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Winform-app.exe
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Winform-app.pdb
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Dominio.dll
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.FormMenu.resources
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.frmListarArticulos.resources
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.Properties.Resources.resources
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.csproj.CopyComplete
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.exe
+C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Winform-app\obj\Debug\Winform-app.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Winform-app.exe.config
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Winform-app.exe
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Winform-app.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Dominio.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.FormMenu.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.FrmAltaArticulo.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmListarArticulos.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.exe
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform-app.pdb

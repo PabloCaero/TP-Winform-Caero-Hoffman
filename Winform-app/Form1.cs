@@ -24,5 +24,11 @@ namespace Winform_app
           frmListarArticulos art = new frmListarArticulos();
            art.ShowDialog();
         }
+
+        private void btnAgregarArt_Click(object sender, EventArgs e)
+        {
+            FrmAltaArticulo alta = new FrmAltaArticulo();
+            alta.ShowDialog();
+        }
     }
 }

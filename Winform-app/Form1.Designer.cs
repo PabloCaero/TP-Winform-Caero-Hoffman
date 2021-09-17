@@ -40,7 +40,7 @@ namespace Winform_app
             // 
             // btnListarArt
             // 
-           this.btnListarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnListarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnListarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnListarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnListarArt.ForeColor = System.Drawing.SystemColors.Highlight;
@@ -83,6 +83,7 @@ namespace Winform_app
             this.btnAgregarArt.TabIndex = 2;
             this.btnAgregarArt.Text = "Agregar Articulo";
             this.btnAgregarArt.UseVisualStyleBackColor = false;
+            this.btnAgregarArt.Click += new System.EventHandler(this.btnAgregarArt_Click);
             // 
             // btnModificarArt
             // 
