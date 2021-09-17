@@ -26,7 +26,7 @@ namespace Winform_app
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            Articulo arti = new Articulo();
+            
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
@@ -41,11 +41,10 @@ namespace Winform_app
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
 
-                if (articulo.IDArticulo != 0)
-                {
-                    negocio.modificar(articulo);
-                    MessageBox.Show("Modificado correctamente");
-                }
+               
+                negocio.modificar(articulo);
+                MessageBox.Show("Modificado correctamente");
+                
                 Close();
             }
             catch (Exception ex)
@@ -71,17 +70,18 @@ namespace Winform_app
 
                 if (articulo != null)
                 {
+                    //CON ESTO PRESELECCIONA
                     txtCodigo.Text = articulo.Codigo;
                     txtNombre.Text = articulo.Nombre;
                     txtDesc.Text = articulo.Descripcion;
                     txtUrlImg.Text = articulo.ImagenURL;
                     txtPrecio.Text = articulo.Precio.ToString();
-                    cargarImagen(articulo.ImagenURL);
+                    
 
                     //MANEJO CON COMBO BOX MODIFICAR
                     cboMarca.SelectedValue = articulo.Marca.IDMarca;
                     cboCategoria.SelectedValue = articulo.Categoria.IDCategoria;
-
+                    cargarImagen(articulo.ImagenURL);
                 }
             }
             catch (Exception ex)
