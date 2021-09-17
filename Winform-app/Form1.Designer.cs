@@ -68,6 +68,7 @@ namespace Winform_app
             this.btnBuscarArt.TabIndex = 1;
             this.btnBuscarArt.Text = "Buscar Articulo";
             this.btnBuscarArt.UseVisualStyleBackColor = false;
+            this.btnBuscarArt.Click += new System.EventHandler(this.btnBuscarArt_Click);
             // 
             // btnAgregarArt
             // 
@@ -99,6 +100,7 @@ namespace Winform_app
             this.btnModificarArt.TabIndex = 3;
             this.btnModificarArt.Text = "Modificar Articulo";
             this.btnModificarArt.UseVisualStyleBackColor = false;
+            this.btnModificarArt.Click += new System.EventHandler(this.btnModificarArt_Click);
             // 
             // btnEliminarArt
             // 

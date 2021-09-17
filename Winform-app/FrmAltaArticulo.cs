@@ -34,14 +34,12 @@ namespace Winform_app
                 arti.Nombre = txtNombre.Text;
                 arti.Descripcion = txtDesc.Text;
                 arti.ImagenURL = txtUrlImg.Text;
-                arti.Marca =(Marca)cboMarca.SelectedItem;
+                arti.Marca = (Marca)cboMarca.SelectedItem;
                 arti.Categoria = (Categoria)cboCategoria.SelectedItem;
-
 
                 negocio.agregar(arti);
                 MessageBox.Show("Agregado correctamente");
                 Close();
-
             }
             catch (Exception ex)
             {

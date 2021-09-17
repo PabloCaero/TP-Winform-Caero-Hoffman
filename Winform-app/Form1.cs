@@ -29,6 +29,18 @@ namespace Winform_app
         {
             FrmAltaArticulo alta = new FrmAltaArticulo();
             alta.ShowDialog();
+          
+        }
+
+        private void btnBuscarArt_Click(object sender, EventArgs e)
+        {
+            frmBuscarArticulo buscar = new frmBuscarArticulo();
+            buscar.ShowDialog();
+        }
+
+        private void btnModificarArt_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

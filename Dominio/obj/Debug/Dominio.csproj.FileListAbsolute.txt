@@ -10,3 +10,8 @@ C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Dominio\obj\Debug\Dominio.cspr
 C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Dominio\obj\Debug\Dominio.dll
 C:\Users\Usuario\Desktop\TP-Winfrom-Caero-Hoffman\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Dominio\bin\Debug\Dominio.dll
+C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Dominio\obj\Debug\Dominio.dll
+C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Dominio\obj\Debug\Dominio.pdb
