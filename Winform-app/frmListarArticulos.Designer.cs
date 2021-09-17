@@ -57,7 +57,7 @@ namespace Winform_app
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(823, 302);
+            this.ClientSize = new System.Drawing.Size(823, 231);
             this.Controls.Add(this.pictureBoxArticulo);
             this.Controls.Add(this.dvgArticulos);
             this.Name = "frmListarArticulos";

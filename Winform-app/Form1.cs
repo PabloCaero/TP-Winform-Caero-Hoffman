@@ -40,7 +40,8 @@ namespace Winform_app
 
         private void btnModificarArt_Click(object sender, EventArgs e)
         {
-           
+            frmModificarArticulo modificar = new frmModificarArticulo();
+            modificar.ShowDialog();
         }
     }
 }

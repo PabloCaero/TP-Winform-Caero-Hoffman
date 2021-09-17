@@ -26,6 +26,7 @@ namespace Winform_app
             listaArticulo = negocio.listar();
             dvgArticulos.DataSource = listaArticulo;
             dvgArticulos.Columns["ImagenURL"].Visible=false;//PARA OCULTAR LA URL 
+            dvgArticulos.Columns["IDArticulo"].Visible = false;
             cargarImagen(listaArticulo[0].ImagenURL);
 
         }

@@ -30,61 +30,41 @@ namespace Winform_app
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
-            this.btnListarArt = new System.Windows.Forms.Button();
-            this.btnBuscarArt = new System.Windows.Forms.Button();
-            this.btnAgregarArt = new System.Windows.Forms.Button();
-            this.btnModificarArt = new System.Windows.Forms.Button();
-            this.btnEliminarArt = new System.Windows.Forms.Button();
             this.btnVerDetalleArt = new System.Windows.Forms.Button();
+            this.btnEliminarArt = new System.Windows.Forms.Button();
+            this.btnModificarArt = new System.Windows.Forms.Button();
+            this.btnAgregarArt = new System.Windows.Forms.Button();
+            this.btnBuscarArt = new System.Windows.Forms.Button();
+            this.btnListarArt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnListarArt
+            // btnVerDetalleArt
             // 
-            this.btnListarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnListarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnListarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListarArt.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnListarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnListarArt.Image")));
-            this.btnListarArt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnListarArt.Location = new System.Drawing.Point(12, 46);
-            this.btnListarArt.Name = "btnListarArt";
-            this.btnListarArt.Size = new System.Drawing.Size(231, 37);
-            this.btnListarArt.TabIndex = 0;
-            this.btnListarArt.Text = "Listar Articulos";
-            this.btnListarArt.UseVisualStyleBackColor = false;
-            this.btnListarArt.Click += new System.EventHandler(this.btnListarArt_Click);
+            this.btnVerDetalleArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnVerDetalleArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnVerDetalleArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerDetalleArt.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnVerDetalleArt.Location = new System.Drawing.Point(12, 315);
+            this.btnVerDetalleArt.Name = "btnVerDetalleArt";
+            this.btnVerDetalleArt.Size = new System.Drawing.Size(231, 36);
+            this.btnVerDetalleArt.TabIndex = 5;
+            this.btnVerDetalleArt.Text = "Ver Detalle De Articulo";
+            this.btnVerDetalleArt.UseVisualStyleBackColor = false;
             // 
-            // btnBuscarArt
+            // btnEliminarArt
             // 
-            this.btnBuscarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnBuscarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBuscarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarArt.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnBuscarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarArt.Image")));
-            this.btnBuscarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnBuscarArt.Location = new System.Drawing.Point(12, 98);
-            this.btnBuscarArt.Name = "btnBuscarArt";
-            this.btnBuscarArt.Size = new System.Drawing.Size(231, 38);
-            this.btnBuscarArt.TabIndex = 1;
-            this.btnBuscarArt.Text = "Buscar Articulo";
-            this.btnBuscarArt.UseVisualStyleBackColor = false;
-            this.btnBuscarArt.Click += new System.EventHandler(this.btnBuscarArt_Click);
-            // 
-            // btnAgregarArt
-            // 
-            this.btnAgregarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnAgregarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAgregarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarArt.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnAgregarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarArt.Image")));
-            this.btnAgregarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnAgregarArt.Location = new System.Drawing.Point(12, 151);
-            this.btnAgregarArt.Name = "btnAgregarArt";
-            this.btnAgregarArt.Size = new System.Drawing.Size(231, 39);
-            this.btnAgregarArt.TabIndex = 2;
-            this.btnAgregarArt.Text = "Agregar Articulo";
-            this.btnAgregarArt.UseVisualStyleBackColor = false;
-            this.btnAgregarArt.Click += new System.EventHandler(this.btnAgregarArt_Click);
+            this.btnEliminarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnEliminarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEliminarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarArt.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnEliminarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarArt.Image")));
+            this.btnEliminarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnEliminarArt.Location = new System.Drawing.Point(12, 263);
+            this.btnEliminarArt.Name = "btnEliminarArt";
+            this.btnEliminarArt.Size = new System.Drawing.Size(231, 37);
+            this.btnEliminarArt.TabIndex = 4;
+            this.btnEliminarArt.Text = "Eliminar Articulo";
+            this.btnEliminarArt.UseVisualStyleBackColor = false;
             // 
             // btnModificarArt
             // 
@@ -102,33 +82,53 @@ namespace Winform_app
             this.btnModificarArt.UseVisualStyleBackColor = false;
             this.btnModificarArt.Click += new System.EventHandler(this.btnModificarArt_Click);
             // 
-            // btnEliminarArt
+            // btnAgregarArt
             // 
-            this.btnEliminarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnEliminarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEliminarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarArt.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnEliminarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarArt.Image")));
-            this.btnEliminarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnEliminarArt.Location = new System.Drawing.Point(12, 263);
-            this.btnEliminarArt.Name = "btnEliminarArt";
-            this.btnEliminarArt.Size = new System.Drawing.Size(231, 37);
-            this.btnEliminarArt.TabIndex = 4;
-            this.btnEliminarArt.Text = "Eliminar Articulo";
-            this.btnEliminarArt.UseVisualStyleBackColor = false;
+            this.btnAgregarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnAgregarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAgregarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarArt.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnAgregarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarArt.Image")));
+            this.btnAgregarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnAgregarArt.Location = new System.Drawing.Point(12, 151);
+            this.btnAgregarArt.Name = "btnAgregarArt";
+            this.btnAgregarArt.Size = new System.Drawing.Size(231, 39);
+            this.btnAgregarArt.TabIndex = 2;
+            this.btnAgregarArt.Text = "Agregar Articulo";
+            this.btnAgregarArt.UseVisualStyleBackColor = false;
+            this.btnAgregarArt.Click += new System.EventHandler(this.btnAgregarArt_Click);
             // 
-            // btnVerDetalleArt
+            // btnBuscarArt
             // 
-            this.btnVerDetalleArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnVerDetalleArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVerDetalleArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerDetalleArt.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnVerDetalleArt.Location = new System.Drawing.Point(12, 315);
-            this.btnVerDetalleArt.Name = "btnVerDetalleArt";
-            this.btnVerDetalleArt.Size = new System.Drawing.Size(231, 36);
-            this.btnVerDetalleArt.TabIndex = 5;
-            this.btnVerDetalleArt.Text = "Ver Detalle De Articulo";
-            this.btnVerDetalleArt.UseVisualStyleBackColor = false;
+            this.btnBuscarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnBuscarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarArt.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnBuscarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarArt.Image")));
+            this.btnBuscarArt.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnBuscarArt.Location = new System.Drawing.Point(12, 98);
+            this.btnBuscarArt.Name = "btnBuscarArt";
+            this.btnBuscarArt.Size = new System.Drawing.Size(231, 38);
+            this.btnBuscarArt.TabIndex = 1;
+            this.btnBuscarArt.Text = "Buscar Articulo";
+            this.btnBuscarArt.UseVisualStyleBackColor = false;
+            this.btnBuscarArt.Click += new System.EventHandler(this.btnBuscarArt_Click);
+            // 
+            // btnListarArt
+            // 
+            this.btnListarArt.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnListarArt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnListarArt.Font = new System.Drawing.Font("Malgun Gothic Semilight", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListarArt.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnListarArt.Image = ((System.Drawing.Image)(resources.GetObject("btnListarArt.Image")));
+            this.btnListarArt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarArt.Location = new System.Drawing.Point(12, 46);
+            this.btnListarArt.Name = "btnListarArt";
+            this.btnListarArt.Size = new System.Drawing.Size(231, 37);
+            this.btnListarArt.TabIndex = 0;
+            this.btnListarArt.Text = "Listar Articulos";
+            this.btnListarArt.UseVisualStyleBackColor = false;
+            this.btnListarArt.Click += new System.EventHandler(this.btnListarArt_Click);
             // 
             // FormMenu
             // 
@@ -154,9 +154,9 @@ namespace Winform_app
         private System.Windows.Forms.Button btnListarArt;
         private System.Windows.Forms.Button btnBuscarArt;
         private System.Windows.Forms.Button btnAgregarArt;
-        private System.Windows.Forms.Button btnModificarArt;
         private System.Windows.Forms.Button btnEliminarArt;
         private System.Windows.Forms.Button btnVerDetalleArt;
+        private System.Windows.Forms.Button btnModificarArt;
     }
 }
 

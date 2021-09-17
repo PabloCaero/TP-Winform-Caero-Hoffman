@@ -70,6 +70,18 @@
     <Compile Include="frmListarArticulos.Designer.cs">
       <DependentUpon>frmListarArticulos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmModificarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarArticulo.Designer.cs">
+      <DependentUpon>frmModificarArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarArticuloSeleccionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarArticuloSeleccionado.Designer.cs">
+      <DependentUpon>frmModificarArticuloSeleccionado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +95,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmListarArticulos.resx">
       <DependentUpon>frmListarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarArticulo.resx">
+      <DependentUpon>frmModificarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarArticuloSeleccionado.resx">
+      <DependentUpon>frmModificarArticuloSeleccionado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

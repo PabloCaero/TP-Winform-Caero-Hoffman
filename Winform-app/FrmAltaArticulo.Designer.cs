@@ -38,7 +38,7 @@ namespace Winform_app
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtUrlImg = new System.Windows.Forms.TextBox();
-            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
@@ -123,15 +123,15 @@ namespace Winform_app
             this.txtUrlImg.TabIndex = 5;
             this.txtUrlImg.Leave += new System.EventHandler(this.txtUrlImg_Leave);
             // 
-            // btnAceptar
+            // btnModificar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(66, 287);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 7;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnModificar.Location = new System.Drawing.Point(66, 287);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 7;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -208,7 +208,7 @@ namespace Winform_app
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.txtUrlImg);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.txtNombre);
@@ -239,7 +239,7 @@ namespace Winform_app
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.TextBox txtUrlImg;
-        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.Label lblCategoria;
