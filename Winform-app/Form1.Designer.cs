@@ -65,6 +65,7 @@ namespace Winform_app
             this.btnEliminarArt.TabIndex = 4;
             this.btnEliminarArt.Text = "Eliminar Articulo";
             this.btnEliminarArt.UseVisualStyleBackColor = false;
+            this.btnEliminarArt.Click += new System.EventHandler(this.btnEliminarArt_Click);
             // 
             // btnModificarArt
             // 

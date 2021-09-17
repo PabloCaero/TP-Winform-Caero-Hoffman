@@ -64,6 +64,18 @@
     <Compile Include="frmBuscarArticulo.Designer.cs">
       <DependentUpon>frmBuscarArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEliminarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarArticulo.Designer.cs">
+      <DependentUpon>frmEliminarArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarArticuloSeleccionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarArticuloSeleccionado.Designer.cs">
+      <DependentUpon>frmEliminarArticuloSeleccionado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListarArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBuscarArticulo.resx">
       <DependentUpon>frmBuscarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarArticulo.resx">
+      <DependentUpon>frmEliminarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarArticuloSeleccionado.resx">
+      <DependentUpon>frmEliminarArticuloSeleccionado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListarArticulos.resx">
       <DependentUpon>frmListarArticulos.cs</DependentUpon>
