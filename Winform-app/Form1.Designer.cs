@@ -50,6 +50,7 @@ namespace Winform_app
             this.btnVerDetalleArt.TabIndex = 5;
             this.btnVerDetalleArt.Text = "Ver Detalle De Articulo";
             this.btnVerDetalleArt.UseVisualStyleBackColor = false;
+            this.btnVerDetalleArt.Click += new System.EventHandler(this.btnVerDetalleArt_Click);
             // 
             // btnEliminarArt
             // 

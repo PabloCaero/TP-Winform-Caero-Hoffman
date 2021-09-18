@@ -49,5 +49,11 @@ namespace Winform_app
             frmEliminarArticulo eliminar = new frmEliminarArticulo();
             eliminar.ShowDialog();
         }
+
+        private void btnVerDetalleArt_Click(object sender, EventArgs e)
+        {
+            FrmDetalleDeArticulo detalle = new FrmDetalleDeArticulo();
+            detalle.ShowDialog();
+        }
     }
 }

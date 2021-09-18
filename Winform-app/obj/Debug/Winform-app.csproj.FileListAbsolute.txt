@@ -69,3 +69,9 @@ C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio d
 C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.frmModificarArticuloSeleccionado.resources
 C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.frmEliminarArticulo.resources
 C:\Users\Pablo Ezequiel Caero\Desktop\Tecnicatura en Programación\Laboratorio de Computacion 3\ACTIVIDAD 2-1\TP-Winform-Caero-Hoffman\TP-Winform-Caero-Hoffman\Winform-app\obj\Debug\Winform_app.frmEliminarArticuloSeleccionado.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmBuscarArticulo.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmEliminarArticulo.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmEliminarArticuloSeleccionado.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmModificarArticulo.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.frmModificarArticuloSeleccionado.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\Winform-app\obj\Debug\Winform_app.FrmDetalleDeArticulo.resources

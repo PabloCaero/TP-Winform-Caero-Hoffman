@@ -37,8 +37,11 @@ namespace Winform_app
             // 
             // dvgArticulos
             // 
+            this.dvgArticulos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dvgArticulos.Location = new System.Drawing.Point(12, 46);
+            this.dvgArticulos.MultiSelect = false;
             this.dvgArticulos.Name = "dvgArticulos";
+            this.dvgArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgArticulos.Size = new System.Drawing.Size(609, 150);
             this.dvgArticulos.TabIndex = 0;
             this.dvgArticulos.SelectionChanged += new System.EventHandler(this.dvgArticulos_SelectionChanged);
