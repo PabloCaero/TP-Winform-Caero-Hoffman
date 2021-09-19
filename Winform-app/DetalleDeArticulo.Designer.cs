@@ -50,6 +50,7 @@ namespace Winform_app
             this.Controls.Add(this.dgvDetalleArticulo);
             this.Name = "FrmDetalleDeArticulo";
             this.Text = "DetalleDeArticulo";
+            this.Load += new System.EventHandler(this.FrmDetalleDeArticulo_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleArticulo)).EndInit();
             this.ResumeLayout(false);
 

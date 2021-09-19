@@ -21,7 +21,7 @@ namespace Winform_app
             InitializeComponent();
         }
 
-        private void FrmDetalleDeArticulo_Load(object sender, EventArgs e)
+        private void FrmDetalleDeArticulo_Load_1(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
             listarDetalle = negocio.listar();
