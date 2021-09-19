@@ -1,7 +1,7 @@
 ﻿
 namespace Winform_app
 {
-    partial class FrmAltaArticulo
+    partial class frmAltaArticulo
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@ namespace Winform_app
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtUrlImg = new System.Windows.Forms.TextBox();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
@@ -123,19 +123,19 @@ namespace Winform_app
             this.txtUrlImg.TabIndex = 5;
             this.txtUrlImg.Leave += new System.EventHandler(this.txtUrlImg_Leave);
             // 
-            // btnModificar
+            // btnAceptar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(66, 287);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 7;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnAceptar.Location = new System.Drawing.Point(225, 223);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 7;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(261, 287);
+            this.btnCancelar.Location = new System.Drawing.Point(306, 223);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 8;
@@ -188,19 +188,19 @@ namespace Winform_app
             // 
             // pictureBoxURL
             // 
-            this.pictureBoxURL.Location = new System.Drawing.Point(228, 66);
+            this.pictureBoxURL.Location = new System.Drawing.Point(192, 24);
             this.pictureBoxURL.Name = "pictureBoxURL";
             this.pictureBoxURL.Size = new System.Drawing.Size(189, 121);
             this.pictureBoxURL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxURL.TabIndex = 14;
             this.pictureBoxURL.TabStop = false;
             // 
-            // FrmAltaArticulo
+            // frmAltaArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(429, 339);
+            this.ClientSize = new System.Drawing.Size(395, 259);
             this.Controls.Add(this.pictureBoxURL);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.cboCategoria);
@@ -208,7 +208,7 @@ namespace Winform_app
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtUrlImg);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.txtNombre);
@@ -218,7 +218,7 @@ namespace Winform_app
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FrmAltaArticulo";
+            this.Name = "frmAltaArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agregar Articulo";
             this.Load += new System.EventHandler(this.FrmAltaArticulo_Load);
@@ -239,7 +239,7 @@ namespace Winform_app
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.TextBox txtUrlImg;
-        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.Label lblCategoria;

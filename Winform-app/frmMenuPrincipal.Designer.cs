@@ -36,6 +36,7 @@ namespace Winform_app
             this.btnAgregarArt = new System.Windows.Forms.Button();
             this.btnBuscarArt = new System.Windows.Forms.Button();
             this.btnListarArt = new System.Windows.Forms.Button();
+            this.lblMenu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVerDetalleArt
@@ -132,12 +133,23 @@ namespace Winform_app
             this.btnListarArt.UseVisualStyleBackColor = false;
             this.btnListarArt.Click += new System.EventHandler(this.btnListarArt_Click);
             // 
+            // lblMenu
+            // 
+            this.lblMenu.AutoSize = true;
+            this.lblMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.Location = new System.Drawing.Point(8, 19);
+            this.lblMenu.Name = "lblMenu";
+            this.lblMenu.Size = new System.Drawing.Size(126, 20);
+            this.lblMenu.TabIndex = 6;
+            this.lblMenu.Text = "Menú Principal";
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(258, 396);
+            this.ClientSize = new System.Drawing.Size(258, 363);
+            this.Controls.Add(this.lblMenu);
             this.Controls.Add(this.btnVerDetalleArt);
             this.Controls.Add(this.btnEliminarArt);
             this.Controls.Add(this.btnModificarArt);
@@ -146,8 +158,9 @@ namespace Winform_app
             this.Controls.Add(this.btnListarArt);
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MENU";
+            this.Text = "Gestion de Articulos";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -159,6 +172,7 @@ namespace Winform_app
         private System.Windows.Forms.Button btnEliminarArt;
         private System.Windows.Forms.Button btnVerDetalleArt;
         private System.Windows.Forms.Button btnModificarArt;
+        private System.Windows.Forms.Label lblMenu;
     }
 }
 

@@ -38,7 +38,7 @@ namespace Winform_app
             // dvgArticulos
             // 
             this.dvgArticulos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dvgArticulos.Location = new System.Drawing.Point(12, 46);
+            this.dvgArticulos.Location = new System.Drawing.Point(12, 12);
             this.dvgArticulos.MultiSelect = false;
             this.dvgArticulos.Name = "dvgArticulos";
             this.dvgArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -48,7 +48,7 @@ namespace Winform_app
             // 
             // pictureBoxArticulo
             // 
-            this.pictureBoxArticulo.Location = new System.Drawing.Point(627, 46);
+            this.pictureBoxArticulo.Location = new System.Drawing.Point(627, 12);
             this.pictureBoxArticulo.Name = "pictureBoxArticulo";
             this.pictureBoxArticulo.Size = new System.Drawing.Size(184, 150);
             this.pictureBoxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -60,7 +60,7 @@ namespace Winform_app
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(823, 231);
+            this.ClientSize = new System.Drawing.Size(823, 174);
             this.Controls.Add(this.pictureBoxArticulo);
             this.Controls.Add(this.dvgArticulos);
             this.Name = "frmListarArticulos";

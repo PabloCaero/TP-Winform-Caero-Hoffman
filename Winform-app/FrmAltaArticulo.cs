@@ -12,9 +12,9 @@ using Negocio;
 
 namespace Winform_app
 {
-    public partial class FrmAltaArticulo : Form
+    public partial class frmAltaArticulo : Form
     {
-        public FrmAltaArticulo()
+        public frmAltaArticulo()
         {
             InitializeComponent();
         }

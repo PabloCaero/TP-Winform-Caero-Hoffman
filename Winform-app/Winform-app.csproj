@@ -46,23 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DetalleDeArticulo.cs">
+    <Compile Include="frmDetalleDeArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DetalleDeArticulo.Designer.cs">
-      <DependentUpon>DetalleDeArticulo.cs</DependentUpon>
+    <Compile Include="frmDetalleDeArticulo.Designer.cs">
+      <DependentUpon>frmDetalleDeArticulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAltaArticulo.cs">
+    <Compile Include="frmAltaArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAltaArticulo.Designer.cs">
-      <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
+    <Compile Include="frmAltaArticulo.Designer.cs">
+      <DependentUpon>frmAltaArticulo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmBuscarArticulo.cs">
       <SubType>Form</SubType>
@@ -102,14 +102,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DetalleDeArticulo.resx">
-      <DependentUpon>DetalleDeArticulo.cs</DependentUpon>
+    <EmbeddedResource Include="frmDetalleDeArticulo.resx">
+      <DependentUpon>frmDetalleDeArticulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAltaArticulo.resx">
-      <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
+    <EmbeddedResource Include="frmAltaArticulo.resx">
+      <DependentUpon>frmAltaArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBuscarArticulo.resx">
       <DependentUpon>frmBuscarArticulo.cs</DependentUpon>

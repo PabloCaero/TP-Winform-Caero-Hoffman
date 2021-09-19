@@ -51,7 +51,7 @@ namespace Winform_app
             // 
             // pictureBoxURL
             // 
-            this.pictureBoxURL.Location = new System.Drawing.Point(242, 67);
+            this.pictureBoxURL.Location = new System.Drawing.Point(207, 23);
             this.pictureBoxURL.Name = "pictureBoxURL";
             this.pictureBoxURL.Size = new System.Drawing.Size(189, 121);
             this.pictureBoxURL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -60,7 +60,7 @@ namespace Winform_app
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(90, 183);
+            this.txtPrecio.Location = new System.Drawing.Point(75, 181);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(111, 20);
             this.txtPrecio.TabIndex = 26;
@@ -69,7 +69,7 @@ namespace Winform_app
             // 
             this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
-            this.cboCategoria.Location = new System.Drawing.Point(90, 130);
+            this.cboCategoria.Location = new System.Drawing.Point(75, 128);
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(110, 21);
             this.cboCategoria.TabIndex = 23;
@@ -78,7 +78,7 @@ namespace Winform_app
             // 
             this.cboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarca.FormattingEnabled = true;
-            this.cboMarca.Location = new System.Drawing.Point(90, 103);
+            this.cboMarca.Location = new System.Drawing.Point(75, 101);
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(110, 21);
             this.cboMarca.TabIndex = 21;
@@ -86,7 +86,7 @@ namespace Winform_app
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Location = new System.Drawing.Point(30, 138);
+            this.lblCategoria.Location = new System.Drawing.Point(15, 136);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(55, 13);
             this.lblCategoria.TabIndex = 30;
@@ -95,7 +95,7 @@ namespace Winform_app
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
-            this.lblMarca.Location = new System.Drawing.Point(45, 111);
+            this.lblMarca.Location = new System.Drawing.Point(30, 109);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(40, 13);
             this.lblMarca.TabIndex = 29;
@@ -103,7 +103,7 @@ namespace Winform_app
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(242, 233);
+            this.btnCancelar.Location = new System.Drawing.Point(321, 231);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 28;
@@ -112,7 +112,7 @@ namespace Winform_app
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(124, 233);
+            this.btnModificar.Location = new System.Drawing.Point(240, 231);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 27;
@@ -122,28 +122,28 @@ namespace Winform_app
             // 
             // txtUrlImg
             // 
-            this.txtUrlImg.Location = new System.Drawing.Point(90, 157);
+            this.txtUrlImg.Location = new System.Drawing.Point(75, 155);
             this.txtUrlImg.Name = "txtUrlImg";
             this.txtUrlImg.Size = new System.Drawing.Size(110, 20);
             this.txtUrlImg.TabIndex = 25;
             // 
             // txtDesc
             // 
-            this.txtDesc.Location = new System.Drawing.Point(90, 77);
+            this.txtDesc.Location = new System.Drawing.Point(75, 75);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(110, 20);
             this.txtDesc.TabIndex = 20;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(90, 51);
+            this.txtNombre.Location = new System.Drawing.Point(75, 49);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(110, 20);
             this.txtNombre.TabIndex = 17;
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(90, 25);
+            this.txtCodigo.Location = new System.Drawing.Point(75, 23);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(109, 20);
             this.txtCodigo.TabIndex = 16;
@@ -151,7 +151,7 @@ namespace Winform_app
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(44, 190);
+            this.label5.Location = new System.Drawing.Point(29, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 24;
@@ -160,7 +160,7 @@ namespace Winform_app
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 164);
+            this.label4.Location = new System.Drawing.Point(8, 162);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 22;
@@ -169,7 +169,7 @@ namespace Winform_app
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 84);
+            this.label3.Location = new System.Drawing.Point(6, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 19;
@@ -178,7 +178,7 @@ namespace Winform_app
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 58);
+            this.label2.Location = new System.Drawing.Point(22, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 18;
@@ -187,7 +187,7 @@ namespace Winform_app
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 32);
+            this.label1.Location = new System.Drawing.Point(27, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 15;
@@ -198,7 +198,7 @@ namespace Winform_app
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(468, 311);
+            this.ClientSize = new System.Drawing.Size(418, 268);
             this.Controls.Add(this.pictureBoxURL);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.cboCategoria);
@@ -217,6 +217,7 @@ namespace Winform_app
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmModificarArticuloSeleccionado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Articulo Seleccionado";
             this.Load += new System.EventHandler(this.frmModificarArticuloSeleccionado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxURL)).EndInit();

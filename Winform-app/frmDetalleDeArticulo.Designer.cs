@@ -36,8 +36,10 @@ namespace Winform_app
             // dgvDetalleArticulo
             // 
             this.dgvDetalleArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDetalleArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvDetalleArticulo.Location = new System.Drawing.Point(12, 12);
             this.dgvDetalleArticulo.Name = "dgvDetalleArticulo";
+            this.dgvDetalleArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDetalleArticulo.Size = new System.Drawing.Size(699, 141);
             this.dgvDetalleArticulo.TabIndex = 0;
             // 
@@ -45,11 +47,12 @@ namespace Winform_app
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(739, 165);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(726, 165);
             this.Controls.Add(this.dgvDetalleArticulo);
             this.Name = "FrmDetalleDeArticulo";
-            this.Text = "DetalleDeArticulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Detalle de Articulos";
             this.Load += new System.EventHandler(this.FrmDetalleDeArticulo_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleArticulo)).EndInit();
             this.ResumeLayout(false);

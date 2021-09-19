@@ -30,6 +30,7 @@ namespace Winform_app
                 articulo.Codigo = txtBuscarCodigo.Text;
                 buscaArticulo = negocio.buscarCodigo(articulo);
                 dgvBuscarArticulo.DataSource = buscaArticulo;
+                dgvBuscarArticulo.Columns["IDArticulo"].Visible = false;
                 dgvBuscarArticulo.Columns["Marca"].Visible = false;
                 dgvBuscarArticulo.Columns["Categoria"].Visible = false;
                 dgvBuscarArticulo.Columns["Descripcion"].Visible = false;

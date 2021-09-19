@@ -94,7 +94,8 @@ namespace Winform_app
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 114);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(436, 104);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtNombre);
@@ -102,6 +103,7 @@ namespace Winform_app
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmEliminarArticuloSeleccionado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eliminar Selección";
             this.Load += new System.EventHandler(this.frmEliminarArticuloSeleccionado_Load);
             this.ResumeLayout(false);

@@ -27,7 +27,7 @@ namespace Winform_app
 
         private void btnAgregarArt_Click(object sender, EventArgs e)
         {
-            FrmAltaArticulo alta = new FrmAltaArticulo();
+            frmAltaArticulo alta = new frmAltaArticulo();
             alta.ShowDialog();
           
         }

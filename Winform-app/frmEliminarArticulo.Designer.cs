@@ -69,8 +69,10 @@ namespace Winform_app
             // 
             // dvgArticulos
             // 
+            this.dvgArticulos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dvgArticulos.Location = new System.Drawing.Point(12, 23);
             this.dvgArticulos.Name = "dvgArticulos";
+            this.dvgArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgArticulos.Size = new System.Drawing.Size(504, 150);
             this.dvgArticulos.TabIndex = 6;
             this.dvgArticulos.SelectionChanged += new System.EventHandler(this.dvgArticulos_SelectionChanged);
@@ -96,6 +98,7 @@ namespace Winform_app
             this.Controls.Add(this.pictureBoxArticulo);
             this.Controls.Add(this.dvgArticulos);
             this.Name = "frmEliminarArticulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eliminar Articulo";
             this.Load += new System.EventHandler(this.frmEliminarArticulo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxArticulo)).EndInit();
