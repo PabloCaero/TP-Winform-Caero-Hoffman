@@ -36,6 +36,7 @@ namespace Winform_app
                 arti.ImagenURL = txtUrlImg.Text;
                 arti.Marca = (Marca)cboMarca.SelectedItem;
                 arti.Categoria = (Categoria)cboCategoria.SelectedItem;
+                arti.Precio = decimal.Parse(txtPrecio.Text);
 
                 negocio.agregar(arti);
                 MessageBox.Show("Agregado correctamente");

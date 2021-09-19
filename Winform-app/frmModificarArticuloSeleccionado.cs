@@ -40,8 +40,9 @@ namespace Winform_app
                 articulo.ImagenURL = txtUrlImg.Text;
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
 
-               
+
                 negocio.modificar(articulo);
                 MessageBox.Show("Modificado correctamente");
                 
